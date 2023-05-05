@@ -25,13 +25,10 @@ function token() {
     result.push({token: token, date: date()});
     saveResult()
     storage.token = Math.floor(Math.random() * (25 - 1) + 1)
-    console.log(storage.token)
     }
 
-console.log(storage.token)
 document.querySelectorAll('button').forEach(element => element.addEventListener('click', () => {
     if (element.className != 'danger' && element.className != 'success') {
-    console.log(element.className)
     if (element.textContent != storage.token) {
         let z = document.querySelector('.hereskill')
         z.innerHTML = z.textContent.replace("Aucun pion supprimé pour l'instant", "") + ' ' + element.className
