@@ -1,2 +1,2 @@
 # Find the random number
-- Available only on pc
+- Available only on minimum 492px
