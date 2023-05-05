@@ -1,2 +1,2 @@
 # Find the random number
-- Available only on minimum 492px
+- Only available on minimum 492px
