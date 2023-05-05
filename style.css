@@ -102,3 +102,8 @@ code {
 .success:hover {
     background-color: var(--success-hover)
 }
+@media screen and (max-width: 492px) {
+    .maincontainer {
+        width: 460px;
+    }
+}
