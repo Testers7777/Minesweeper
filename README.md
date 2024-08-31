@@ -1,3 +1,3 @@
-# Find the random number
+# Mindsweeper
 Example :
-https://testers7777.github.io/random-number/src/index.html
+https://testers7777.github.io/Minesweeper/src/index.html
